@@ -13,7 +13,7 @@ kubectl get secret -n consul consul-gossip-encryption-key --template {{.data.key
 ## Create the directory structure for storing the config
 
 ```
-$CONSUL_DIR = 'c:\consul\'
+$CONSUL_DIR = 'c:\consul'
 New-Item -type directory $CONSUL_DIR\config
 New-Item -type directory $CONSUL_DIR\data
 New-Item -type directory $CONSUL_DIR\certs
